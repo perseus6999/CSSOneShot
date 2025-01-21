@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selectors_01 </title>
+
+</head>
+<style>
+
+    * {
+        padding : 0 ;
+        margin : 0 ;
+    }
+
+    body {
+        background-color: #212121;
+        color : #fff ;
+    }
+    .bg-orange {
+        background-color: orange;
+    }
+
+    #bg-green {
+        background-color: green;
+    }
+    h1, h2, h3 {
+        background-color: #664544;
+    }
+
+    a[target = "_blank"] {
+        background-color: red;
+    }
+
+    ul li {
+        background-color: rgb(5, 5, 92);
+    }
+
+    header > a {
+        background-color: rgb(180, 180, 20);
+    }
+
+    img + p {
+        background-color: aliceblue;
+    }
+
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2 class = "bg-orange"> Lorem ipsum dolor sit.</h2>
+    <h3 class = "bg-orange" id = "bg-green"> Lorem ipsum dolor sit.</h3>
+
+    <a target = "_parent" href="https://pwskills.com"> PW_SKILLS</a> 
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <li>Four</li>
+
+    <header>
+        <a href="#"> Google </a>
+
+        <nav>
+            <ul>
+                <li>home</li>
+                <a href="#"> Logo </a>
+            </ul>
+        </nav>
+        <a href="#"> Bing </a>
+    </header>
+
+    <div>
+        <img src="#" alt="">
+        <p>Change me </p>
+        <p>Change me two </p>
+
+        <div>
+            <p> Change me three </p>
+        </div>
+    </div>
+
+    <a target = "_parent" href="https://pwskills.com"> PW_SKILLS</a>
+    <a target = "_blank" href="https://google.com"> PW_SKILLS</a>
+</body>
+</html>
